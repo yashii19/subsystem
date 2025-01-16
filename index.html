@@ -16,20 +16,24 @@
     <style>
         /* Application des couleurs personnalisables */
         body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Contenu aligné en haut */
+            align-items: center; /* Centrage horizontal */
             background-color: black;
             color: white;
             font-family: 'Alta', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
+            min-height: 100vh; /* Assure que le body occupe toujours toute la hauteur de la page */
             margin: 0;
             text-align: center;
-            padding: 20px; /* Marges globales (haut, bas, côtés) */
+            padding: 20px;
             box-sizing: border-box;
-        }
+}
 
+body > *:last-child {
+    margin-top: auto; /* Force l'élément à se placer vers le bas de la page */
+    margin-bottom: 50px; /* Ajoute de l'espace en bas */
+}
 
         h1, p {
             margin: 20px 0;
@@ -39,7 +43,7 @@
 
         
         h1 {
-            margin-top: 300px;
+            margin-top: 20px;
         }
     
 
@@ -234,8 +238,8 @@
         gameLoop();
     </script>
     
-    <p>
-    <a href="mailto:subsystemoffice@gmail.com" style="color: white; text-decoration: none; font-size: 18px;">subsystemoffice@gmail.com</a>
-</p>
+    <p style="margin-bottom: 50px; margin-top: 50px;">
+        <a href="mailto:subsystemoffice@gmail.com" style="color: white; text-decoration: none; ">subsystemoffice@gmail.com</a>
+    </p>
 </body>
 </html>
