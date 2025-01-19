@@ -19,4 +19,4 @@ Explore the website live: www.subsystemlab.com
 
  For inquiries, feel free to email us at :
 
- subsystemstudio@gmail.com
+ subsystemoffice@gmail.com
